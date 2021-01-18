@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura básica de un formulario</title>
+    <style>
+        div {
+            margin-bottom: 10px;
+            /* margin- botton es la separación hacia abajo */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Déjanos tus sugerencias</h1>
+    <form action="form.html">
+        <!--ACTION indica a donde nos enviará el formulario, una vez lo envíe, que página-->
+        <div>
+            <input placeholder="Tu nombre" name="username">
+        </div>
+
+        <div>
+            <input placeholder="Tu correo" name="email">
+        </div>
+        <div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Déjanos un mensaje"></textarea>
+        </div>
+        <input type="submit" value="Enviar  ">
+        <!--value es para colocarle el nombre al botón -->
+        <!-- <button>Enviar</button> -->
+    </form>
+
+</body>
+
+</html>
